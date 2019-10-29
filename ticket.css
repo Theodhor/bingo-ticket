@@ -44,4 +44,25 @@ body{
   justify-content: center;
   border: 1px solid black;
   font-size: 32px;
+  color: green;
+}
+.empty{
+  background-color: grey;
+}
+.button{
+  margin-top: 25px;
+  height: 75px;
+  width: 300px;
+  font-size: 36px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  transition: all 0.4s;
+}
+.button:hover{
+  color: white;
+  background-color: grey;
+  border-color: white;
 }
